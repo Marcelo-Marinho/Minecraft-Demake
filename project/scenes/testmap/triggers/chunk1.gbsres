@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "f391c670-6733-4862-ad4a-a76f64bd9299",
+  "name": "Chunk1",
+  "prefabId": "",
+  "x": 1,
+  "y": 1,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 8,
+  "height": 8,
+  "script": [],
+  "leaveScript": [],
+  "_index": 1
+}
