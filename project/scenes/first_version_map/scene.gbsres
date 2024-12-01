@@ -38,7 +38,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Gen World",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -160,6 +160,82 @@
               "__collapse": true
             },
             "id": "6a74b3be-7636-4c38-9db3-d38930a33285"
+          },
+          {
+            "command": "EVENT_REPLACE_META_TILE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "metatile_id": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": true
+            },
+            "id": "421fb2b1-a5bc-4617-a63b-d87e7471d25c"
+          },
+          {
+            "command": "EVENT_REPLACE_META_TILE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "metatile_id": {
+                "type": "number",
+                "value": 8
+              },
+              "__collapse": true
+            },
+            "id": "69db5b8b-adad-4620-a65a-1aa461e0977c"
+          },
+          {
+            "command": "EVENT_REPLACE_META_TILE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "metatile_id": {
+                "type": "number",
+                "value": 6
+              },
+              "__collapse": true
+            },
+            "id": "8b75b323-d603-4ae0-a94d-5563fa2eadef"
+          },
+          {
+            "command": "EVENT_REPLACE_META_TILE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "metatile_id": {
+                "type": "number",
+                "value": 7
+              },
+              "__collapse": true
+            },
+            "id": "4269c567-8f3a-4ade-8762-e0c2e6453ddc"
           }
         ]
       },
@@ -173,7 +249,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -181,7 +257,8 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "Block_location",
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "children": {
               "true": [
@@ -422,7 +499,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -507,7 +584,8 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__label": "Block_location"
+              "__label": "Block_location",
+              "__comment": true
             },
             "children": {
               "true": [
@@ -823,8 +901,10 @@
       "args": {
         "timer": 4,
         "duration": 0.05,
-        "frames": 30,
-        "__scriptTabs": "end"
+        "frames": 2,
+        "__scriptTabs": "end",
+        "units": "frames",
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -861,11 +941,25 @@
                               "args": {
                                 "variable": "1",
                                 "value": {
-                                  "type": "property",
-                                  "target": "player",
-                                  "property": "xpos"
+                                  "type": "div",
+                                  "valueA": {
+                                    "type": "add",
+                                    "valueA": {
+                                      "type": "property",
+                                      "target": "player",
+                                      "property": "pxpos"
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 4
+                                    }
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 8
+                                  }
                                 },
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "8c6db201-e73e-4059-92e8-798158244133"
                             },
@@ -876,16 +970,30 @@
                                 "value": {
                                   "type": "add",
                                   "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "ypos"
+                                    "type": "div",
+                                    "valueA": {
+                                      "type": "add",
+                                      "valueA": {
+                                        "type": "property",
+                                        "target": "player",
+                                        "property": "pypos"
+                                      },
+                                      "valueB": {
+                                        "type": "number",
+                                        "value": 4
+                                      }
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 8
+                                    }
                                   },
                                   "valueB": {
                                     "type": "number",
                                     "value": 1
                                   }
                                 },
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "4c1c6ecd-5296-411b-8379-e070d27a5dc3"
                             }
@@ -912,11 +1020,25 @@
                               "args": {
                                 "variable": "1",
                                 "value": {
-                                  "type": "property",
-                                  "target": "player",
-                                  "property": "xpos"
+                                  "type": "div",
+                                  "valueA": {
+                                    "type": "add",
+                                    "valueA": {
+                                      "type": "property",
+                                      "target": "player",
+                                      "property": "pxpos"
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 4
+                                    }
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 8
+                                  }
                                 },
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "21652cc8-9a16-4969-80e4-29fa42816ea0"
                             },
@@ -927,9 +1049,23 @@
                                 "value": {
                                   "type": "sub",
                                   "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "ypos"
+                                    "type": "div",
+                                    "valueA": {
+                                      "type": "add",
+                                      "valueA": {
+                                        "type": "property",
+                                        "target": "player",
+                                        "property": "pypos"
+                                      },
+                                      "valueB": {
+                                        "type": "number",
+                                        "value": 4
+                                      }
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 8
+                                    }
                                   },
                                   "valueB": {
                                     "type": "number",
@@ -965,9 +1101,23 @@
                                 "value": {
                                   "type": "add",
                                   "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "xpos"
+                                    "type": "div",
+                                    "valueA": {
+                                      "type": "add",
+                                      "valueA": {
+                                        "type": "property",
+                                        "target": "player",
+                                        "property": "pxpos"
+                                      },
+                                      "valueB": {
+                                        "type": "number",
+                                        "value": 4
+                                      }
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 8
+                                    }
                                   },
                                   "valueB": {
                                     "type": "number",
@@ -983,11 +1133,25 @@
                               "args": {
                                 "variable": "2",
                                 "value": {
-                                  "type": "property",
-                                  "target": "player",
-                                  "property": "ypos"
+                                  "type": "div",
+                                  "valueA": {
+                                    "type": "add",
+                                    "valueA": {
+                                      "type": "property",
+                                      "target": "player",
+                                      "property": "pypos"
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 4
+                                    }
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 8
+                                  }
                                 },
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "c39f33f9-b0e0-45af-9679-b5935dee275a"
                             }
@@ -1016,16 +1180,30 @@
                                 "value": {
                                   "type": "sub",
                                   "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "xpos"
+                                    "type": "div",
+                                    "valueA": {
+                                      "type": "add",
+                                      "valueA": {
+                                        "type": "property",
+                                        "target": "player",
+                                        "property": "pxpos"
+                                      },
+                                      "valueB": {
+                                        "type": "number",
+                                        "value": 4
+                                      }
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 8
+                                    }
                                   },
                                   "valueB": {
                                     "type": "number",
                                     "value": 1
                                   }
                                 },
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "cc6e9f71-2bac-46f6-853f-77d8fa729898"
                             },
@@ -1034,11 +1212,25 @@
                               "args": {
                                 "variable": "2",
                                 "value": {
-                                  "type": "property",
-                                  "target": "player",
-                                  "property": "ypos"
+                                  "type": "div",
+                                  "valueA": {
+                                    "type": "add",
+                                    "valueA": {
+                                      "type": "property",
+                                      "target": "player",
+                                      "property": "pypos"
+                                    },
+                                    "valueB": {
+                                      "type": "number",
+                                      "value": 4
+                                    }
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 8
+                                  }
                                 },
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "1b2e78b3-9112-4d89-90ea-631309241dfb"
                             }
