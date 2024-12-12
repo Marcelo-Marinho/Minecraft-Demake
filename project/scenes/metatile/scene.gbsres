@@ -18,10 +18,10 @@
     "71bdcfaa-6865-4b3f-840d-2f250516c925"
   ],
   "spritePaletteIds": [],
-  "collisions": "0f!003+0f2+00fa+",
+  "collisions": "00!0f!004+0f!003+0f!00f5+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 192,
+  "x": 160,
   "y": 48,
   "script": [],
   "playerHit1Script": [],
