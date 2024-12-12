@@ -1,0 +1,101 @@
+{
+  "_resourceType": "scene",
+  "id": "a0362a4f-436e-4c4c-8dcd-393faedec214",
+  "_index": 3,
+  "name": "Title Screen",
+  "backgroundId": "2518d8ad-5d86-4427-9941-82208fe2f5a5",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [
+    "dmg",
+    "a06f39ec-41ea-4d47-b63e-2aea1f77fb6d",
+    "be7bb055-1b07-4a2a-b708-8b3cd7fcad94",
+    "4461fedf-ed4f-4e61-9a68-b74dabc47fa0",
+    "e3c107a9-93dd-49a2-afa0-040dd2e8397d",
+    "4aa3f388-06a5-4cf3-8989-0bc7d965e4d1",
+    "71bdcfaa-6865-4b3f-840d-2f250516c925",
+    "default-ui"
+  ],
+  "spritePaletteIds": [
+    "7869d93b-6f38-45fb-8f0b-e18d7f77274a",
+    "d95d2b0f-90e5-410a-9c19-07af312249cd",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite"
+  ],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 336,
+  "y": 216,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "87aa5320-cca0-4348-a0eb-9fc3ab1a73f6"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Modes:\n0= Survival\n1= Creative\n2= Cavegame\n3= Minigames",
+        "__collapse": true
+      },
+      "id": "db53ec2f-b042-4f12-bbd4-3d7645a475d1"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4d0cfc6e-c0d8-4472-aaef-aaba0450150f"
+      },
+      "id": "1bc06337-1312-466c-ad12-179b250ee982"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "87ac449e-7be5-41d5-9921-fed86c14ba4c",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "44921d8d-f720-4991-8428-211626321ce7"
+          }
+        ]
+      },
+      "id": "b58cd186-3cab-49ba-98b2-4987713421ba"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f8e9ffd7-5fe4-4b6b-b5b0-bc55b83dbd12"
+}

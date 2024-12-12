@@ -1,0 +1,59 @@
+{
+  "_resourceType": "scene",
+  "id": "81857d74-e4d9-4949-b362-cabd337b4e75",
+  "_index": 4,
+  "name": "Main Menu",
+  "backgroundId": "551396cc-a5e1-4dbc-9436-c02d0cf4e70e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "dmg",
+    "a06f39ec-41ea-4d47-b63e-2aea1f77fb6d",
+    "be7bb055-1b07-4a2a-b708-8b3cd7fcad94",
+    "4461fedf-ed4f-4e61-9a68-b74dabc47fa0",
+    "e3c107a9-93dd-49a2-afa0-040dd2e8397d",
+    "4aa3f388-06a5-4cf3-8989-0bc7d965e4d1",
+    "71bdcfaa-6865-4b3f-840d-2f250516c925",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 512,
+  "y": 216,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "7738bb62-f27c-4d08-a162-16433398fd5a"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Modes:\n0= Survival\n1= Creative\n2= Cavegame\n3= Minigames",
+        "__collapse": true
+      },
+      "id": "4fd1dbdd-ef98-4ecf-883d-f71a44bd8149"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4d0cfc6e-c0d8-4472-aaef-aaba0450150f"
+      },
+      "id": "ba98ffa8-39be-4b31-890e-bc509b78203c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
