@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "187b028d-8363-4a9b-aa41-34a146d4c812",
+  "_index": 6,
+  "name": "letters",
+  "backgroundId": "0289a520-3613-42af-9778-aaa39a813da0",
+  "tilesetId": "",
+  "width": 16,
+  "height": 16,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 688,
+  "y": 40,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
