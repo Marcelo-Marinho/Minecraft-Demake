@@ -31,8 +31,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 336,
-  "y": 216,
+  "x": 328,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -75,10 +75,10 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "87ac449e-7be5-41d5-9921-fed86c14ba4c",
+              "sceneId": "c75eb543-1e17-4036-b632-e765a0b9270c",
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 5
               },
               "y": {
                 "type": "number",

@@ -9,16 +9,17 @@
   "height": 16,
   "type": "TOPDOWN",
   "paletteIds": [
-    "dmg",
+    "49f08c33-7fb2-4fdd-86dc-32abd86b50e3",
     "a06f39ec-41ea-4d47-b63e-2aea1f77fb6d",
     "be7bb055-1b07-4a2a-b708-8b3cd7fcad94",
     "4461fedf-ed4f-4e61-9a68-b74dabc47fa0",
     "e3c107a9-93dd-49a2-afa0-040dd2e8397d",
     "4aa3f388-06a5-4cf3-8989-0bc7d965e4d1",
-    "71bdcfaa-6865-4b3f-840d-2f250516c925"
+    "71bdcfaa-6865-4b3f-840d-2f250516c925",
+    "dmg"
   ],
   "spritePaletteIds": [],
-  "collisions": "00!0f!004+0f!003+0f!00f5+",
+  "collisions": "00!0f!003+0f!002+0f7+002+0f!00!0f!00!0f!003+0f!002+0f7+002+0f!00!0f!00d8+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 160,
