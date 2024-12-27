@@ -4,9 +4,9 @@
   "name": "temp_menu",
   "symbol": "bg_temp_menu",
   "width": 20,
-  "height": 18,
+  "height": 25,
   "imageWidth": 160,
-  "imageHeight": 144,
+  "imageHeight": 200,
   "filename": "temp_menu.png",
   "tileColors": "",
   "autoColor": false

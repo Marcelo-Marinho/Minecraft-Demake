@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "801fc27e-4adb-469c-95f6-fe17fe00616a",
+  "name": "psyco",
+  "symbol": "bg_psyco",
+  "width": 6,
+  "height": 2,
+  "imageWidth": 55,
+  "imageHeight": 19,
+  "filename": "psyco.png",
+  "tileColors": "",
+  "autoColor": false
+}

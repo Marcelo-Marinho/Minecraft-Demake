@@ -1,0 +1,100 @@
+{
+  "_resourceType": "scene",
+  "id": "eea7acc0-8025-46e4-b15d-ed4908089208",
+  "_index": 10,
+  "name": "Psyco",
+  "backgroundId": "7e428679-ab59-43bf-ac48-472312487a07",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [
+    "572154a9-bc08-4eb0-b527-9c8101d48466"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 992,
+  "y": 544,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a0362a4f-436e-4c4c-8dcd-393faedec214",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 1,
+              "__collapse": false
+            },
+            "id": "a125004a-a653-45b7-b435-03681305919c"
+          }
+        ]
+      },
+      "id": "6c599baf-dfb0-440b-8380-1fa79b4f06de"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a0362a4f-436e-4c4c-8dcd-393faedec214",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 2,
+              "__collapse": false
+            },
+            "id": "9ebd27ac-1bc8-463b-9efb-ddfca7793c21"
+          }
+        ]
+      },
+      "id": "f3a6bd71-31ef-452e-8945-c927d34fece0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

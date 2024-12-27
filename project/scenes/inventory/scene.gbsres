@@ -1,0 +1,80 @@
+{
+  "_resourceType": "scene",
+  "id": "b6b35f19-c668-49c9-b6e3-f0dfe610713f",
+  "_index": 7,
+  "name": "Inventory",
+  "backgroundId": "d4155b36-cbcc-438b-b481-504c7fffc58e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 36,
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    "49f08c33-7fb2-4fdd-86dc-32abd86b50e3",
+    "a06f39ec-41ea-4d47-b63e-2aea1f77fb6d",
+    "be7bb055-1b07-4a2a-b708-8b3cd7fcad94",
+    "4461fedf-ed4f-4e61-9a68-b74dabc47fa0",
+    "e3c107a9-93dd-49a2-afa0-040dd2e8397d",
+    "4aa3f388-06a5-4cf3-8989-0bc7d965e4d1",
+    "71bdcfaa-6865-4b3f-840d-2f250516c925",
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "",
+    "d95d2b0f-90e5-410a-9c19-07af312249cd",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite",
+    "default-sprite"
+  ],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 536,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOAD_META_TILES",
+            "args": {
+              "sceneId": "8777c545-ddb8-473a-b086-3360aa29082e"
+            },
+            "id": "b1d6e528-0e86-4b08-badf-cbca477d00d4"
+          },
+          {
+            "command": "EVENT_LOAD_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__collapse": false
+            },
+            "id": "0535f1d9-7551-4b40-8169-f4742ae35a5f"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "0ab95c81-468e-42b5-8118-97e306c66c54"
+          }
+        ]
+      },
+      "id": "ab655a32-d505-4aa1-807c-55d7eecc7777"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f8e9ffd7-5fe4-4b6b-b5b0-bc55b83dbd12"
+}

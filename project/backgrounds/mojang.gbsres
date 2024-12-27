@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c4cc3180-37de-411f-a99e-cfc745ee7b3e",
+  "name": "mojang",
+  "symbol": "bg_mojang",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "mojang.png",
+  "tileColors": "",
+  "autoColor": false
+}

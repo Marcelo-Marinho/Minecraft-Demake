@@ -1,0 +1,95 @@
+{
+    "activeFile": "temp_menu.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "actual_metatile.tmx": {
+            "scale": 4.39375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.06827880512091,
+                "y": 63.840682788051204
+            }
+        },
+        "alpha_map.tmx": {
+            "scale": 3.9055555555555554,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.01422475106685,
+                "y": 41.607396870554766
+            }
+        },
+        "inventory.tmx": {
+            "scale": 3.2128472222222224,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.14697935804604,
+                "y": 49.02193883064952
+            }
+        },
+        "keyboard.tmx": {
+            "scale": 3.2128472222222224,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.14697935804604,
+                "y": 72.05446882092293
+            }
+        },
+        "letter_map.tmx": {
+            "scale": 4.3640625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 24.633011099176514,
+                "y": 91.54314357321877
+            }
+        },
+        "map_template.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 87.49999999999999,
+                "y": 78.5
+            }
+        },
+        "metatile.tsx": {
+            "scaleInDock": 2.5,
+            "scaleInEditor": 1
+        },
+        "not_supporter_menu.tmx": {
+            "scale": 3.9055555555555554,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.14224751066857,
+                "y": 72.20483641536272
+            }
+        },
+        "temp_menu.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 86.83333333333334,
+                "y": 98.16666666666666
+            }
+        }
+    },
+    "openFiles": [
+        "actual_metatile.tmx",
+        "map_template.tmx",
+        "letter_map.tmx",
+        "temp_menu.tmx",
+        "inventory.tmx"
+    ],
+    "project": "microcraft.tiled-project",
+    "recentFiles": [
+        "actual_metatile.tmx",
+        "map_template.tmx",
+        "letter_map.tmx",
+        "inventory.tmx",
+        "temp_menu.tmx",
+        "alpha_map.tmx",
+        "keyboard.tmx",
+        "metatile.tsx",
+        "not_supporter_menu.tmx"
+    ]
+}

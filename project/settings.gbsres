@@ -1,6 +1,6 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "a0362a4f-436e-4c4c-8dcd-393faedec214",
+  "startSceneId": "9be8d88b-e1b3-4a4e-8d81-4acac5483dd6",
   "startX": 9,
   "startY": 9,
   "startMoveSpeed": 1,
@@ -84,6 +84,57 @@
   "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "b1c46cac-1f74-44b3-9d40-76da91cfe56d": {
+        "id": "b1c46cac-1f74-44b3-9d40-76da91cfe56d",
+        "name": "Info",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 1,
+          "maxHeight": 7,
+          "textX": 0,
+          "textY": 0,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": false,
+          "speedIn": -1,
+          "speedOut": -1,
+          "closeWhen": "key",
+          "closeButton": "any",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      },
+      "4ce56075-f2f2-481e-b76c-3c152bcd9f96": {
+        "id": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
+        "name": "menu_text",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 2,
+          "maxHeight": 2,
+          "textX": 0,
+          "textY": 0,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": false,
+          "speedIn": -1,
+          "speedOut": -1,
+          "closeWhen": "key",
+          "closeButton": "any",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {}
 }

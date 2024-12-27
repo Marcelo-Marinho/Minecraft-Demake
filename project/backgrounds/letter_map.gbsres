@@ -8,6 +8,6 @@
   "imageWidth": 128,
   "imageHeight": 128,
   "filename": "letter_map.png",
-  "tileColors": "00!0128+022+00d5+",
+  "tileColors": "0029+022+00d5+",
   "autoColor": false
 }
