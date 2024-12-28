@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "659b32cc-85b3-41db-abe7-d25244896af4",
-  "name": "",
+  "id": "7cad0d0c-f3f2-4614-98c4-f9af04ec34e5",
+  "name": "Slot3",
   "prefabId": "",
   "x": 2,
-  "y": 8,
-  "symbol": "trigger_2",
+  "y": 18,
+  "symbol": "trigger_5",
   "prefabScriptOverrides": {},
   "width": 8,
   "height": 3,
@@ -13,21 +13,45 @@
     {
       "command": "EVENT_IF_SAVED_DATA",
       "args": {
-        "saveSlot": 0,
+        "saveSlot": 2,
         "__collapseElse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_LOAD_DATA",
+            "command": "EVENT_SET_VALUE",
             "args": {
-              "saveSlot": 0,
+              "variable": "5",
+              "value": {
+                "type": "number",
+                "value": 3
+              },
               "__collapse": true
             },
-            "id": "6d2d3396-c6a3-48f5-9d9a-f2142aa4f14a"
+            "id": "db46749c-6aff-47cf-bbeb-a8ef40a99fa3"
+          },
+          {
+            "command": "EVENT_LOAD_DATA",
+            "args": {
+              "saveSlot": 2,
+              "__collapse": true
+            },
+            "id": "cf404e96-ffbe-44e6-8998-591552ffa17e"
           }
         ],
         "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": true
+            },
+            "id": "f2513c1a-a0c0-45e3-809a-41a7b0492aaf"
+          },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
@@ -45,13 +69,13 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "0666569e-4528-44ce-91e4-324f0c0da2bb"
+            "id": "70163e3b-f5e4-4f96-b6bd-d15c5389bbf7"
           }
         ]
       },
-      "id": "75c032c9-507a-4a5f-8a64-db622db95973"
+      "id": "4930ab95-375f-4c94-b8f7-d42a43469f02"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 5
 }

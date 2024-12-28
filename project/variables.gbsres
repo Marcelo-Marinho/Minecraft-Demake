@@ -28,8 +28,8 @@
     },
     {
       "id": "5",
-      "name": "Mode",
-      "symbol": "var_mode_0"
+      "name": "SelectSlot",
+      "symbol": "var_selectslot"
     },
     {
       "id": "6",
@@ -775,6 +775,21 @@
       "id": "79b39924-06c6-423d-8e08-a64102e5fe7c__L5",
       "name": "pig_y",
       "symbol": "var_pig_y"
+    },
+    {
+      "id": "aeaa8b27-2e41-43a2-9717-b57c5aadae59__L0",
+      "name": "NoYes",
+      "symbol": "var_noyes"
+    },
+    {
+      "id": "698ee982-cd42-43b8-9d16-d2290e09b5b1__L0",
+      "name": "NoYes",
+      "symbol": "var_noyes_0"
+    },
+    {
+      "id": "7638026e-eb5c-4ed9-95b1-1c64af5370a9__L0",
+      "name": "NoYes",
+      "symbol": "var_noyes_1"
     }
   ]
 }

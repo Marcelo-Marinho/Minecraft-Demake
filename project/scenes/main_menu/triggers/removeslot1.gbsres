@@ -1,0 +1,156 @@
+{
+  "_resourceType": "trigger",
+  "id": "aeaa8b27-2e41-43a2-9717-b57c5aadae59",
+  "name": "RemoveSlot1",
+  "prefabId": "",
+  "x": 10,
+  "y": 8,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Reset W.",
+        "option2": "Cancel  ",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "menu",
+        "cancelOnLastOption": true,
+        "__collapse": true
+      },
+      "id": "a6253183-d651-4bff-b370-a357b5cfd96b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CLEAR_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__collapse": false
+            },
+            "id": "e3295a7f-da92-430d-89cb-4839ec5edf4e"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Load seed's",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "671ec4e5-d893-4d4d-b35d-ad6a7cedba9a"
+                },
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "c4543acc-3b4d-43dc-be46-c1d1843307cc"
+                },
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "32e9efff-77fe-4ca9-a0ef-90311f4b1ea0"
+                },
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "0a87bf0f-3922-4229-b08d-58c6e1e12c34"
+                }
+              ]
+            },
+            "id": "f75cc3b5-4f78-4dca-bf55-d488f093e10b"
+          }
+        ],
+        "false": []
+      },
+      "id": "a1a05b84-f598-4440-a988-a2187ef79ca2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -1,0 +1,156 @@
+{
+  "_resourceType": "trigger",
+  "id": "698ee982-cd42-43b8-9d16-d2290e09b5b1",
+  "name": "RemoveSlot2",
+  "prefabId": "",
+  "x": 10,
+  "y": 13,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Reset W.",
+        "option2": "Cancel  ",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "menu",
+        "cancelOnLastOption": true,
+        "__collapse": true
+      },
+      "id": "52fd141e-c9d6-4285-8a30-c5ce3b9a2e83"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CLEAR_DATA",
+            "args": {
+              "saveSlot": 1,
+              "__collapse": false
+            },
+            "id": "a3853d03-09c2-4439-8672-8deb4320324e"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Load seed's",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "afd0e1bf-ace7-4874-acd6-514b289dc05f"
+                },
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "e8527ae0-5fca-48ae-b009-4e73259b8bce"
+                },
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "97616b38-4791-4e82-be95-0916e0ffc108"
+                },
+                {
+                  "command": "EVENT_REPLACE_META_TILE",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "metatile_id": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "__collapse": true
+                  },
+                  "id": "52667b2d-8cd0-4d46-8848-b6c93149204e"
+                }
+              ]
+            },
+            "id": "a7634dc8-fe3c-4620-9ee4-40737d62f7a2"
+          }
+        ],
+        "false": []
+      },
+      "id": "55f3beae-3319-4f51-a522-37f8669f32fd"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}
