@@ -5,8 +5,8 @@
   "name": "TestMap",
   "backgroundId": "a70b5482-c2cf-46c8-8b8f-cafce7de3e27",
   "tilesetId": "",
-  "width": 20,
-  "height": 36,
+  "width": 32,
+  "height": 32,
   "type": "ADVENTURE",
   "paletteIds": [
     "49f08c33-7fb2-4fdd-86dc-32abd86b50e3",

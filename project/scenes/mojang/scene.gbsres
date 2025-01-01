@@ -5,14 +5,14 @@
   "name": "Mojang",
   "backgroundId": "c4cc3180-37de-411f-a99e-cfc745ee7b3e",
   "tilesetId": "",
-  "width": 20,
-  "height": 18,
+  "width": 32,
+  "height": 32,
   "type": "LOGO",
   "paletteIds": [
     "572154a9-bc08-4eb0-b527-9c8101d48466"
   ],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
   "x": 160,

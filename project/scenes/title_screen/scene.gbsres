@@ -5,8 +5,8 @@
   "name": "Title Screen",
   "backgroundId": "2518d8ad-5d86-4427-9941-82208fe2f5a5",
   "tilesetId": "",
-  "width": 20,
-  "height": 18,
+  "width": 32,
+  "height": 32,
   "type": "TOPDOWN",
   "paletteIds": [
     "dmg",
@@ -28,7 +28,7 @@
     "default-sprite",
     "default-sprite"
   ],
-  "collisions": "00168+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
   "x": 720,
