@@ -5,8 +5,8 @@
   "name": "Inventory",
   "backgroundId": "d4155b36-cbcc-438b-b481-504c7fffc58e",
   "tilesetId": "",
-  "width": 20,
-  "height": 36,
+  "width": 32,
+  "height": 32,
   "type": "POINTNCLICK",
   "paletteIds": [
     "49f08c33-7fb2-4fdd-86dc-32abd86b50e3",
