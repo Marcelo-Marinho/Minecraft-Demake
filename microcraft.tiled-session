@@ -1,31 +1,59 @@
 {
-    "activeFile": "temp_menu.tmx",
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map_template.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
         "actual_metatile.tmx": {
-            "scale": 4.39375,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 64.06827880512091,
-                "y": 63.840682788051204
+                "x": 177.5,
+                "y": 64.66666666666666
             }
         },
         "alpha_map.tmx": {
-            "scale": 3.9055555555555554,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.01422475106685,
-                "y": 41.607396870554766
+                "x": 91.25,
+                "y": 57.75
+            }
+        },
+        "hmmm.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "hmmmmmmmm.tmx": {
+            "scale": 4.3640625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.16040100250626,
+                "y": 63.81668456856426
+            }
+        },
+        "idk.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "idkwtfisthis.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 64.33333333333333,
+                "y": 70.5
             }
         },
         "inventory.tmx": {
-            "scale": 3.2128472222222224,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.14697935804604,
-                "y": 49.02193883064952
+                "x": 280.3333333333333,
+                "y": 145.33333333333331
             }
         },
         "keyboard.tmx": {
@@ -37,19 +65,19 @@
             }
         },
         "letter_map.tmx": {
-            "scale": 4.3640625,
+            "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 24.633011099176514,
-                "y": 91.54314357321877
+                "x": 46.25,
+                "y": 114.75
             }
         },
         "map_template.tmx": {
-            "scale": 3,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 87.49999999999999,
-                "y": 78.5
+                "x": 197.66666666666666,
+                "y": 67.33333333333333
             }
         },
         "metatile.tsx": {
@@ -68,28 +96,40 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 86.83333333333334,
-                "y": 98.16666666666666
+                "x": 104.83333333333331,
+                "y": 98.16666666666667
             }
         }
     },
+    "last.imagePath": "C:/Users/marce/OneDrive/Documentos/GB Games/Minecraft-Demake/assets/tilesets",
+    "map.height": 18,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
     "openFiles": [
         "actual_metatile.tmx",
-        "map_template.tmx",
-        "letter_map.tmx",
-        "temp_menu.tmx",
-        "inventory.tmx"
+        "inventory.tmx",
+        "map_template.tmx"
     ],
     "project": "microcraft.tiled-project",
     "recentFiles": [
         "actual_metatile.tmx",
-        "map_template.tmx",
-        "letter_map.tmx",
         "inventory.tmx",
-        "temp_menu.tmx",
+        "map_template.tmx",
+        "hmmmmmmmm.tmx",
+        "hmmm.tsx",
+        "idkwtfisthis.tmx",
+        "idk.tsx",
         "alpha_map.tmx",
+        "letter_map.tmx",
+        "temp_menu.tmx",
         "keyboard.tmx",
-        "metatile.tsx",
-        "not_supporter_menu.tmx"
-    ]
+        "metatile.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
 }

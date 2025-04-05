@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1414e45f-1a34-41d0-8f81-ba68bd052a56",
+  "name": "idkwtfisthis",
+  "symbol": "bg_idkwtfisthis",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "idkwtfisthis.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}
