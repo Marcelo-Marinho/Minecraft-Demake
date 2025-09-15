@@ -5,14 +5,14 @@
   "name": "Psyco",
   "backgroundId": "7e428679-ab59-43bf-ac48-472312487a07",
   "tilesetId": "",
-  "width": 32,
-  "height": 32,
+  "width": 20,
+  "height": 18,
   "type": "LOGO",
   "paletteIds": [
     "572154a9-bc08-4eb0-b527-9c8101d48466"
   ],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 992,

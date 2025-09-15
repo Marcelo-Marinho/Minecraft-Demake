@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0289a520-3613-42af-9778-aaa39a813da0",
+  "name": "letter_map",
+  "symbol": "bg_letter_map",
+  "width": 16,
+  "height": 16,
+  "imageWidth": 128,
+  "imageHeight": 128,
+  "filename": "letter_map.png",
+  "tileColors": "0029+022+00d5+",
+  "autoColor": false
+}

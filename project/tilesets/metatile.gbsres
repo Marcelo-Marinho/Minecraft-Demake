@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c63c7166-7a89-4460-bde9-ddcc467f9239",
+  "name": "metatile",
+  "symbol": "tileset_metatile",
+  "width": 16,
+  "height": 16,
+  "imageWidth": 128,
+  "imageHeight": 128,
+  "filename": "metatile.png"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b8998e30-62f4-4f2c-8cfc-cfdf1edae811",
+  "name": "alpha_map",
+  "symbol": "bg_alpha_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "alpha_map.png",
+  "tileColors": "0717+01!07150+",
+  "autoColor": false
+}

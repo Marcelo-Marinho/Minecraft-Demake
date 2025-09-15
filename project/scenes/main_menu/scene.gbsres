@@ -5,8 +5,8 @@
   "name": "Main Menu",
   "backgroundId": "f89a559e-b0d2-4da6-8353-a5a92037d89c",
   "tilesetId": "",
-  "width": 32,
-  "height": 32,
+  "width": 20,
+  "height": 25,
   "type": "POINTNCLICK",
   "paletteIds": [
     "dmg",
@@ -24,8 +24,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 416,
-  "y": 104,
+  "x": 352,
+  "y": 136,
   "script": [
     {
       "command": "EVENT_LOAD_META_TILES",

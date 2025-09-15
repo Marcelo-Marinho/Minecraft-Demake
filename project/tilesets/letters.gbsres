@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "e3aed4f6-4660-452b-9f77-0211fe7ddf53",
+  "name": "letters",
+  "symbol": "tileset_letters",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "letters.png"
+}

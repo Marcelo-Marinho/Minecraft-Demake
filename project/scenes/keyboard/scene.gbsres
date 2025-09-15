@@ -8,8 +8,8 @@
   "labelColor": "purple",
   "x": 528,
   "y": 368,
-  "width": 32,
-  "height": 32,
+  "width": 20,
+  "height": 18,
   "backgroundId": "a2620963-af0b-4b82-a45e-1ed693172426",
   "tilesetId": "",
   "paletteIds": [
@@ -1463,5 +1463,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "00168+"
 }

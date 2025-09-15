@@ -5,14 +5,14 @@
   "name": "Gbstudio",
   "backgroundId": "e19dfd3b-4723-49cb-96d8-361f7f05bdac",
   "tilesetId": "",
-  "width": 32,
-  "height": 32,
+  "width": 80,
+  "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [
     "572154a9-bc08-4eb0-b527-9c8101d48466"
   ],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "005a0+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 336,

@@ -5,8 +5,8 @@
   "name": "Cavegame",
   "backgroundId": "b8998e30-62f4-4f2c-8cfc-cfdf1edae811",
   "tilesetId": "",
-  "width": 32,
-  "height": 32,
+  "width": 20,
+  "height": 18,
   "type": "ADVENTURE",
   "paletteIds": [
     "49f08c33-7fb2-4fdd-86dc-32abd86b50e3",
@@ -22,7 +22,7 @@
     "7869d93b-6f38-45fb-8f0b-e18d7f77274a",
     "d95d2b0f-90e5-410a-9c19-07af312249cd"
   ],
-  "collisions": "",
+  "collisions": "0f15+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f17+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 160,
