@@ -36,15 +36,6 @@
       "id": "29e93bd5-c4a2-49f9-89a4-eda685fadf57"
     },
     {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 1.5,
-        "__collapse": true
-      },
-      "id": "6af7b19f-2402-4bc4-9860-42a63ed35660"
-    },
-    {
       "command": "EVENT_CAMERA_SET_POSITION",
       "args": {
         "x": {

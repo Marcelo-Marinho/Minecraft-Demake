@@ -4,10 +4,10 @@
   "name": "map_template",
   "symbol": "bg_map_template",
   "width": 20,
-  "height": 54,
+  "height": 36,
   "imageWidth": 160,
-  "imageHeight": 432,
+  "imageHeight": 288,
   "filename": "map_template.png",
-  "tileColors": "07438+",
+  "tileColors": "072d0+",
   "autoColor": false
 }

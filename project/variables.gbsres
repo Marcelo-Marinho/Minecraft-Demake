@@ -147,21 +147,6 @@
       "symbol": "var_music"
     },
     {
-      "id": "29",
-      "name": "Inv1_World0",
-      "symbol": "var_inv1_world0"
-    },
-    {
-      "id": "30",
-      "name": "plyr_x_stored",
-      "symbol": "var_plyr_x_stored"
-    },
-    {
-      "id": "31",
-      "name": "plyr_y_stored",
-      "symbol": "var_plyr_y_stored"
-    },
-    {
       "id": "100",
       "name": "z_overworld_x0_y19",
       "symbol": "var_z_overworld_x0_y19"
@@ -805,16 +790,6 @@
       "id": "7638026e-eb5c-4ed9-95b1-1c64af5370a9__L0",
       "name": "NoYes",
       "symbol": "var_noyes_1"
-    },
-    {
-      "id": "b6b35f19-c668-49c9-b6e3-f0dfe610713f__L0",
-      "name": "block_inv",
-      "symbol": "var_block_inv_0"
-    },
-    {
-      "id": "b6b35f19-c668-49c9-b6e3-f0dfe610713f__L1",
-      "name": "inv_temp",
-      "symbol": "var_inv_temp"
     }
   ]
 }

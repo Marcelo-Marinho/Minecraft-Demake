@@ -25,8 +25,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 352,
-  "y": 360,
+  "x": 160,
+  "y": 368,
   "script": [
     {
       "command": "EVENT_LOAD_META_TILES",

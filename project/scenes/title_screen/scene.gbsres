@@ -10,12 +10,12 @@
   "type": "TOPDOWN",
   "paletteIds": [
     "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
+    "a06f39ec-41ea-4d47-b63e-2aea1f77fb6d",
+    "be7bb055-1b07-4a2a-b708-8b3cd7fcad94",
+    "4461fedf-ed4f-4e61-9a68-b74dabc47fa0",
+    "e3c107a9-93dd-49a2-afa0-040dd2e8397d",
+    "4aa3f388-06a5-4cf3-8989-0bc7d965e4d1",
+    "71bdcfaa-6865-4b3f-840d-2f250516c925",
     "3369438b-4f0b-4e18-9560-e1861b3b842e"
   ],
   "spritePaletteIds": [
@@ -63,6 +63,14 @@
       "id": "2d600d3e-dcf2-4346-bef0-a2746ab6d843"
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "Modes:\n0= Survival\n1= Creative\n2= Cavegame\n3= Minigames",
+        "__collapse": true
+      },
+      "id": "db53ec2f-b042-4f12-bbd4-3d7645a475d1"
+    },
+    {
       "command": "EVENT_RNG_SEED",
       "args": {
         "__collapse": true
@@ -75,347 +83,6 @@
         "__collapse": true
       },
       "id": "066ffc5d-dc09-496f-b344-97090bc7a605"
-    },
-    {
-      "command": "EVENT_VARIABLE_MATH",
-      "args": {
-        "vectorX": "L0",
-        "operation": "set",
-        "other": "rnd",
-        "vectorY": "L0",
-        "value": "0",
-        "minValue": "0",
-        "maxValue": 5,
-        "clamp": false,
-        "__collapse": true
-      },
-      "id": "f8031bb2-60ec-400c-adef-78591fbf7dca"
-    },
-    {
-      "command": "EVENT_GROUP",
-      "args": {
-        "__label": "Phrases",
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 0
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
-                    "text": [
-                      "!F:99b98a66-1171-4c0a-beb5-cc07ae1b07e4!Also try Terrarium!"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 2,
-                    "maxHeight": 2,
-                    "textX": 0,
-                    "textY": 0,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": false,
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "any",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "e17a345c-8854-4746-a671-67537a79f0fc"
-                }
-              ],
-              "false": []
-            },
-            "id": "53552db1-733a-4184-8489-5d16a8441377"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 1
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
-                    "text": [
-                      "!F:99b98a66-1171-4c0a-beb5-cc07ae1b07e4!Procedural gen. in\nGameBoy?"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 2,
-                    "maxHeight": 2,
-                    "textX": 0,
-                    "textY": 0,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": false,
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "any",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "87b0936e-13dc-4935-b8c9-8d05dd36831a"
-                }
-              ],
-              "false": []
-            },
-            "id": "256984ca-561b-4989-a426-e0074a88cdcb"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 2
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
-                    "text": [
-                      "!F:99b98a66-1171-4c0a-beb5-cc07ae1b07e4!Microcraft!"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 2,
-                    "maxHeight": 2,
-                    "textX": 0,
-                    "textY": 0,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": false,
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "any",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "381f0704-a2f3-44fc-b552-2b10f22529ca"
-                }
-              ],
-              "false": []
-            },
-            "id": "ea1543e2-9d6d-46b4-8215-bf864248d260"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 3
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
-                    "text": [
-                      "!F:99b98a66-1171-4c0a-beb5-cc07ae1b07e4!Welcome to the your\nNew World"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 2,
-                    "maxHeight": 2,
-                    "textX": 0,
-                    "textY": 0,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": false,
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "any",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "e9b34557-4f32-4b2d-ae8a-19c4da8586a6"
-                }
-              ],
-              "false": []
-            },
-            "id": "89b2eedf-5615-4386-a831-413c8663a55e"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 4
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
-                    "text": [
-                      "!F:99b98a66-1171-4c0a-beb5-cc07ae1b07e4!Be creative!"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 2,
-                    "maxHeight": 2,
-                    "textX": 0,
-                    "textY": 0,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": false,
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "any",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "4406eb11-4896-4234-85b7-9a06fd55bef3"
-                }
-              ],
-              "false": []
-            },
-            "id": "0dd199c4-34c8-40e5-992c-9471fc42357a"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 5
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
-                    "text": [
-                      "!F:4b943a26-206f-4fe9-8e4d-5911c5bad7fd!Q that's a netherack"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 2,
-                    "maxHeight": 2,
-                    "textX": 0,
-                    "textY": 0,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": false,
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "any",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "afc9a1f4-9d75-47ef-95cd-29521c11a497"
-                }
-              ],
-              "false": []
-            },
-            "id": "a8fcc0ef-4fa8-49a0-bcd4-2557915bea21"
-          }
-        ]
-      },
-      "id": "c35e8dfd-eae0-4216-acaa-2b67db2c39d2"
-    },
-    {
-      "command": "EVENT_COMMENT",
-      "args": {
-        "text": "Modes:\n0= Survival\n1= Creative\n2= Cavegame\n3= Minigames",
-        "__collapse": true
-      },
-      "id": "db53ec2f-b042-4f12-bbd4-3d7645a475d1"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -432,7 +99,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -564,6 +231,276 @@
         ]
       },
       "id": "b58cd186-3cab-49ba-98b2-4987713421ba"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH",
+      "args": {
+        "vectorX": "L0",
+        "operation": "set",
+        "other": "rnd",
+        "vectorY": "L0",
+        "value": "0",
+        "minValue": "0",
+        "maxValue": 4,
+        "clamp": false,
+        "__collapse": true
+      },
+      "id": "f8031bb2-60ec-400c-adef-78591fbf7dca"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
+              "text": [
+                "Also try Terrarium!"
+              ],
+              "__section": "presets",
+              "avatarId": "",
+              "minHeight": 2,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "e17a345c-8854-4746-a671-67537a79f0fc"
+          }
+        ],
+        "false": []
+      },
+      "id": "53552db1-733a-4184-8489-5d16a8441377"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
+              "text": [
+                "Procedural gen. in\nGameBoy?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 2,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "87b0936e-13dc-4935-b8c9-8d05dd36831a"
+          }
+        ],
+        "false": []
+      },
+      "id": "256984ca-561b-4989-a426-e0074a88cdcb"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
+              "text": [
+                "Microcraft!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 2,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "381f0704-a2f3-44fc-b552-2b10f22529ca"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea1543e2-9d6d-46b4-8215-bf864248d260"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
+              "text": [
+                "Welcome to the your\nNew World"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 2,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "e9b34557-4f32-4b2d-ae8a-19c4da8586a6"
+          }
+        ],
+        "false": []
+      },
+      "id": "89b2eedf-5615-4386-a831-413c8663a55e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "4ce56075-f2f2-481e-b76c-3c152bcd9f96",
+              "text": [
+                "Be creative!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 2,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "4406eb11-4896-4234-85b7-9a06fd55bef3"
+          }
+        ],
+        "false": []
+      },
+      "id": "0dd199c4-34c8-40e5-992c-9471fc42357a"
     }
   ],
   "playerHit1Script": [],
